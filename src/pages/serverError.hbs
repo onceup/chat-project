@@ -1,0 +1,12 @@
+---
+code: 500
+description: Something went wrong
+css:
+  - warning.css
+---
+
+{{!< main}}
+
+<main>
+  {{> warning code=code description=description}}
+</main>
