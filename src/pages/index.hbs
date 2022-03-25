@@ -1,17 +1,19 @@
 ---
-title: about
-aboutTitle: Welcome to about.hbs
+title: Welcome to YaMsg
 css:
+  - main.css
   - form.css
 ---
 
 {{!< main}}
 
 <main>
-  <h2>Welcome from index.hbs</h2>
+  <h2>{{title}}</h2>
   <br />
   <a href="./signIn.hbs">sign in</a>
   <a href="./signUp.hbs">sign up</a>
   <a href="./pageNotFound.hbs">404</a>
   <a href="./serverError.hbs">500</a>
+  <a href="./dialogues.hbs">dialogues</a>
+  <a href="./settings.hbs">settings</a>
 </main>
